@@ -1,0 +1,21 @@
+# extends: spectral:oas
+functions: [spell-check]
+rules:
+  check-description-spelling:
+    message: "{{error}}"
+    severity: warn
+    given: "$..description"
+    then:
+      function: spell-check
+  check-summary-spelling:
+    message: "{{error}}"
+    severity: warn
+    given: "$..summary"
+    then:
+      function: spell-check
+  check-title-spelling:
+    message: "{{error}}"
+    severity: warn
+    given: "$..title"
+    then:
+      function: spell-check

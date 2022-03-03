@@ -1,0 +1,24 @@
+{
+  "name": "spectral-spell-check",
+  "version": "1.0.0",
+  "description": "A ruleset for spelling checking summaries and descriptions using Spectral",
+  "main": "index.js",
+  "repository": "https://github.com/api-stuff/spectral-spell-check",
+  "author": "Chris Wood <chris@graphiso.io>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@stoplight/spectral-cli": "^6.2.1",
+    "@stoplight/spectral-core": "^1.10.2",
+    "rollup": "^2.38.3",
+    "spellchecker": "^3.7.1"
+  },
+  "scripts": {
+    "lint": "npx spectral lint --ruleset"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
