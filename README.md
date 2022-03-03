@@ -18,7 +18,7 @@ yarn run lint rulesets/spell-check.yaml test/misspelt-openapi.yaml # For conven
 You should get the following output:
 
 ```bash
-➜  spectral-spell-check git:(master) ✗ yarn run lint rulesets/spell-check.yaml test/misspelt-openapi.yaml
+➜  spectral-spelling-grammar git:(master) ✗ yarn run lint rulesets/spell-check.yaml test/misspelt-openapi.yaml
 yarn run v1.22.17
 $ npx spectral lint --ruleset rulesets/spell-check.yaml test/misspelt-openapi.yaml
 
@@ -31,7 +31,7 @@ $ npx spectral lint --ruleset rulesets/spell-check.yaml test/misspelt-openapi.ya
 
 ✖ 5 problems (0 errors, 5 warnings, 0 infos, 0 hints)
 ✨  Done in 1.37s.
-➜  spectral-spell-check git:(master) ✗
+➜  spectral-spelling-grammar git:(master) ✗
 ```
 
 Simple really.
